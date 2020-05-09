@@ -1,0 +1,142 @@
+body
+{
+padding-bottom: 80px;
+background-color: #A1F4FF;
+}
+#header-nav
+{
+	height: 95px;
+	background-color: #F8BDF9;
+	padding-bottom: 0px;
+	border: 0.6px solid black;
+}
+.navbar-brand h1
+{
+	font-size: 45px;
+	font-family:'lora', seri;
+	font-weight: bold;
+	color:black;
+	margin-top: 18px;
+	margin-bottom: 0;
+ text-shadow: 4px 1px 6px #222;
+ 
+}
+#nav-list
+{
+	margin-top: 0px
+}
+
+@media(max-width: 767px)
+	{
+#nav-list a
+{
+	text-align: center;
+	background-color: #CEEB2A;
+	color: black;
+	border: 1.2px solid black;
+}
+
+#nav-list a:hover
+	{
+		background: #E7E8E7;
+	}
+	#nav-list a span
+	{
+		font-size: 1.6em;
+	}
+	/* the button itself*/
+	.navbar-header button.navbar-toggle, .navbar-header .icon-bar  /*drop down list in mobile*/
+	{
+		border: 1.6px solid #000000;
+		background-color: ;
+		margin-bottom: 4.8px;
+	
+	}
+.navbar-header button.navbar-toggle 
+{
+	clear: both;
+}
+.navbar-toggle
+{
+	margin-top: -10px;
+}
+.text , .beef , .Sushi
+{
+	overflow: auto;
+	padding: 
+}
+}
+h2
+{
+	text-align: center;
+	margin-top: 40px;
+	font-weight: bold;
+	font-family: 'oxygen',sans-serif;
+	font-size: 2.6em;
+
+}
+.text h3
+{
+	text-align: center;
+	font-size: 2em;
+	margin-top: 35px;
+	font-weight: bolder;
+}
+.text
+{
+	border: 2px solid black;
+	margin-top:35px;
+	height: 570px;
+	padding-right: 50px;
+	padding-left: 45px;
+	font-family: 'oxygen',sans-serif;
+	background-color:  #DAF7A6 ;
+	font-weight: bolder;
+}
+.beef h3
+{
+
+	text-align: center;
+	font-size: 2em;
+	margin-top: 35px;
+	font-weight: bolder;
+}
+.beef
+{
+
+	border: 2px solid black;
+	margin-top:69px;
+	height: 430px;
+	padding-right: 50px;
+	padding-left: 45px;
+	font-family: 'oxygen',sans-serif;
+	background-color: #DAF7A6;
+	font-weight: bolder;
+}
+.Sushi h3
+{
+
+	text-align: center;
+	font-size: 2em;
+	margin-top: 35px;
+	font-weight: bolder;
+}
+.Sushi
+{
+
+	border: 2px solid black;
+	margin-top:69px;
+	height: 250px;
+	padding-right: 50px;
+	padding-left: 45px;
+	font-family: 'oxygen',sans-serif;
+	background-color: #DAF7A6;
+	font-weight: bolder;
+}
+@media(min-width:768px) and (max-width: 1200px)
+{
+	.text , .beef , .Sushi
+{
+	overflow: auto;
+}
+}
